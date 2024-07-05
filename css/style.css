@@ -1,0 +1,1239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#page1 {
+    width: 100vw;
+}
+
+#page1 .nav1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 10px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#page1 .nav1 .nav12{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#page1 .nav1 .nav12 .byeway {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#page1 .nav13 {
+    margin-top: 8px;
+}
+#page1 .nav13 img{
+    position: relative;
+    top:7px;
+}
+#page1 .nav13 a {
+    font-size: 16px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: 0px 12px 0px 0px;
+}
+
+#page1 .nav13 .signup {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+#page1 .unlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#page1 .unlock .div1 .ptem {
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 60%;
+}
+
+#page1 .unlock .div1 .para {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#page1 .unlock .start {
+    background-color: rgb(56, 93, 204);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+#page1 .di2 img {
+    width: 700px;
+}
+
+#page1 .coli {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8FAFC;
+    padding: 30px;
+}
+
+#page1 .coli .valuee {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#page1 .coli .coli1,
+.coli2,
+.coli3,
+.coli4 {
+    text-align: center;
+}
+
+#categories {
+    width: 100vw;
+    padding: 30px;
+}
+
+#categories .categ {
+    display: flex;
+    justify-content: space-between;
+}
+
+#categories .cate {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#categories .div1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#categories .div1 .divi12,
+.divi13,
+.divi14,
+.divi15 {
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+#categories .div1 .subhead {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#categories .div1 img {
+    width: 150px;
+}
+
+#courses {
+    width: 100vw;
+    padding: 30px;
+}
+
+#courses .course1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#courses .cour {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#courses .cardco {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#courses .cardco .div1,
+.div2,
+.div3,
+.div4 {
+    border: 1px solid #E2E8F0;
+    padding: 10px;
+}
+
+#courses .cardco .beginners {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#courses .cardco .ronald {
+    font-size: 18px;
+}
+
+#courses .cardco .ratings {
+    width: 90px
+}
+
+#courses span {
+    display: flex;
+    gap: 20px
+}
+
+#courses .cardco .rat {
+    font-size: 15px;
+}
+
+#courses .cardco .total {
+    font-size: 13px;
+}
+
+#courses .cardco .price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#instructors {
+    width: 100vw;
+    padding: 30px;
+}
+
+#instructors .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#instructors .div1 .top {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#instructors .div21 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#instructors .div21 .dv21,
+#instructors .div21 .dv212,
+#instructors .div21 .dv213,
+#instructors .div21 .dv214,
+#instructors .div21 .dv215 {
+    border-radius: 8px 0px 0px 0px;
+    border: 1px solid #E2E8F0;
+    padding: 20px;
+}
+#instructors .div21 .dv21 .ree,
+#instructors .div21 .dv212 .ree,
+#instructors .div21 .dv213 .ree,
+#instructors .div21 .dv214 .ree,
+#instructors .div21 .dv215 .ree {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#instructors .div21 .dv21 .Designer,
+#instructors .div21 .dv212 .Designer,
+#instructors .div21 .dv213 .Designer,
+#instructors .div21 .dv214 .Designer,
+#instructors .div21 .dv215 .Designer {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#instructors .std {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutus {
+    width: 100vw;
+    padding: 30px;
+}
+
+#aboutus .abtt {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutus .abtt .arrow img {
+    background: #94A3B8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#aboutus .abtt .abt .our {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#aboutus .divv1 {
+    display: flex;
+    gap: 4px;
+    padding: 10px;
+}
+
+#aboutus .divv1 .div1 {
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+    border: 1px solid #E2E8F0;
+    padding: 10px;
+}
+
+#aboutus .div13 {
+    display: flex;
+    padding: 10px;
+}
+
+#aboutus .div13 .jane {
+    font-weight: bold;
+}
+
+#aboutus .img {
+    padding: 10px;
+}
+
+#transform {
+    width: 100vw;
+    padding: 30px;
+}
+
+#transform .div1 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#transform .div1 .b2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#transform .div1 .b3 {
+    font-size: 24px;
+    font-weight: 600;
+    border: 1px solid#E2E8F0;
+    background: #020617;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#transform .trans1 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#transform .trans1 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#transform .trans1 .b2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#transform .trans1 .b3 {
+    font-size: 24px;
+    font-weight: 600;
+    border: 1px solid#E2E8F0;
+    background: #020617;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+footer {
+    width: 100vw;
+    padding: 10px;
+    background: #1E293B;
+    color: #CBD5E1;
+    font-size: 15px;
+}
+
+footer .divi {
+    display: flex;
+    gap: 15px;
+}
+
+footer .divi .bold {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+footer .empower {
+    line-height: 26px;
+}
+
+footer .cot img {
+    width: 190px;
+}
+
+@media only screen and (min-width:1080px) and (max-width:1279px) {
+    #page1 .di2 img {
+        width: 600px;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 22px;
+    }
+
+    #categories .div1 {
+        justify-content: space-around;
+    }
+
+    #categories .div1 .divi12,
+    .divi13,
+    .divi14,
+    .divi15 {
+        padding: 20px;
+    }
+
+    #courses .cardco {
+        justify-content: space-around;
+
+    }
+
+    #courses .cardco .div1,
+    .div2,
+    .div3,
+    .div4 {
+        padding: 5px;
+    }
+
+    #courses .cardco .beginners {
+        font-size: 16px;
+    }
+
+    #courses .cardco .ronald {
+        font-size: 14px;
+    }
+
+    #courses .cardco .ratings {
+        width: 70px
+    }
+
+    #courses .cardco .rat {
+        font-size: 13px;
+    }
+
+    #courses .cardco .total {
+        font-size: 11px;
+    }
+
+    #courses .cardco .price {
+        font-size: 18px;
+    }
+
+    #courses .cardco .lap {
+        width: 230px;
+    }
+
+    #instructors .div21 {
+        gap: 30px;
+    }
+
+    #instructors .person {
+        width: 150px;
+    }
+
+}
+
+@media only screen and (min-width:980px) and (max-width:1079px) {
+    #page1 .unlock .div1 .ptem {
+        font-size: 26px;
+    }
+
+    #page1 .unlock .div1 .para {
+        font-size: 20px;
+    }
+
+    #page1 .di2 img {
+        width: 500px;
+    }
+
+    #categories .div1 {
+        justify-content: space-around;
+
+    }
+
+    #categories .div1 .divi12,
+    .divi13,
+    .divi14,
+    .divi15 {
+        padding: 20px;
+    }
+
+    #categories .div1 img {
+        width: 100px;
+    }
+
+    #courses .cardco {
+        justify-content: space-around;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 28px;
+    }
+
+    #courses .cardco .beginners {
+        font-size: 16px;
+    }
+
+    #courses .cardco .ronald {
+        font-size: 14px;
+    }
+
+    #courses .cardco .ratings {
+        width: 50px
+    }
+
+    #courses .cardco .rat {
+        font-size: 13px;
+    }
+
+    #courses .cardco .total {
+        font-size: 11px;
+    }
+
+    #courses .cardco .price {
+        font-size: 17px;
+    }
+
+    #courses .cardco .lap {
+        width: 180px;
+    }
+
+    #instructors .div21 {
+        justify-content: space-around;
+    }
+
+    #instructors .div21 .person {
+        width: 100px;
+    }
+
+    #instructors .div21 .dv21,
+    #instructors .div21 .dv212,
+    #instructors .div21 .dv213,
+    #instructors .div21 .dv214,
+    #instructors .div21 .dv215 {
+        padding: 10px;
+    }
+
+    #instructors .div21 .ree,
+    #instructors .div21 .dv212 .ree,
+    #instructors .div21 .dv213 .ree,
+    #instructors .div21 .dv214 .ree,
+    #instructors .div21 .dv215 .ree {
+        font-size: 16px;
+    }
+
+    #instructors .div21 .dv21 .Designer,
+    #instructors .div21 .dv212 .Designer,
+    #instructors .div21 .dv213 .Designer,
+    #instructors .div21 .dv214 .Designer,
+    #instructors .div21 .dv215 .Designer {
+        font-size: 12px;
+    }
+
+    #instructors .std .ratin {
+        width: 9px;
+    }
+
+    #instructors .std .rate {
+        font-size: 10px;
+    }
+
+    #instructors .std .ratt {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:979px) {
+    #page1 .unlock .div1 .ptem {
+        font-size: 20px;
+    }
+
+    #page1 .di2 img {
+        width: 400px;
+    }
+
+    #page1 .unlock .div1 .para {
+        font-size: 16px;
+    }
+
+    #page1 .unlock .start {
+        font-size: 14px;
+    }
+
+    #page1 .coli .valuee {
+        font-size: 22px;
+    }
+
+    #categories .cate {
+        font-size: 20px;
+    }
+
+    #categories .div1 {
+        justify-content: space-around;
+    }
+
+    #categories .div1 .divi12,
+    .divi13,
+    .divi14,
+    .divi15 {
+        padding: 26px;
+    }
+
+    #categories .div1 img {
+        width: 100px;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 18px;
+    }
+
+    #courses .cardco {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #courses .cardco .div1,
+    .div2,
+    .div3,
+    .div4 {
+        margin-bottom: 10px;
+    }
+
+    #instructors .div21 {
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #instructors .div21 .person {
+        width: 160px;
+    }
+
+    #transform .div11 img {
+        width: 300px;
+    }
+
+    #transform .div12 .b1 {
+        font-size: 22px;
+    }
+
+    #transform .div12 .b2 {
+        font-size: 18px;
+    }
+
+    #transform .div12 .b3 {
+        font-size: 18px;
+    }
+
+    #transform .div11 img {
+        width: 300px;
+    }
+
+    #transform .div12 .b1 {
+        font-size: 22px;
+    }
+
+    #transform .div12 .b2 {
+        font-size: 18px;
+    }
+
+    #transform .div12 .b3 {
+        font-size: 18px;
+    }
+
+    #transform .div21 img {
+        width: 300px;
+    }
+
+    #transform .trans1 .b1 {
+        font-size: 22px;
+    }
+
+    #transform .trans1 .b2 {
+        font-size: 18px;
+    }
+
+    #transform .trans1 .b3 {
+        font-size: 18px;
+    }
+
+    footer .divi .bold {
+        font-size: 14px;
+    }
+
+    footer .empower {
+        line-height: 20px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width:767px) {
+    #page1 .unlock .div1 .ptem {
+        font-size: 18px;
+    }
+
+    #page1 .unlock .div1 .para {
+        font-size: 16px;
+    }
+
+    #page1 .unlock .start {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    #page1 .di2 img {
+        width: 300px;
+    }
+
+    #page1 .unlock .start {
+        margin-left: 20px;
+    }
+
+    #categories .div1 .divi12,
+    .divi13,
+    .divi14,
+    .divi15 {
+        padding: 25px;
+    }
+
+    #categories .div1 img {
+        width: 60px;
+    }
+
+    #categories .div1 {
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 16px;
+    }
+
+    #categories .div1 .subheadd {
+        font-size: 15px;
+    }
+
+    #courses .cardco {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #courses .cardco .beginners {
+        font-size: 18px;
+    }
+
+    #courses .cardco .ronald {
+        font-size: 13px;
+    }
+
+    #courses .cardco .price {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #courses .cardco .lap {
+        width: 115px;
+    }
+
+    #courses .cardco .ratings {
+        width: 40px;
+        height: 20px;
+    }
+
+    #courses .cardco .rat {
+        font-size: 8px;
+    }
+
+    #instructors .div21 {
+        justify-content: space-around;
+    }
+
+    #instructors .div21 .person {
+        width: 90px;
+    }
+
+    #instructors .div21 .dv21,
+    #instructors .div21 .dv212,
+    #instructors .div21 .dv213,
+    #instructors .div21 .dv214,
+    #instructors .div21 .dv215 {
+        padding: 10px;
+    }
+
+    #instructors .div21 .ratin {
+        width: 12px;
+    }
+
+    #instructors .div21 .rate {
+        font-size: 8px;
+    }
+
+    #instructors .div21 .ratt {
+        font-size: 7px;
+    }
+
+    #aboutus .div13 .jane {
+        font-size: 13px;
+    }
+
+    #aboutus .div13 .des {
+        font-size: 12px;
+    }
+
+    #transform .div1 .b3 {
+        font-size: 14px;
+    }
+
+    #transform .div1 .div11 img {
+        width: 250px;
+    }
+
+    #transform .div1 .b2 {
+        font-size: 16px;
+    }
+
+    #transform .div1 .b1 {
+        font-size: 18px;
+    }
+
+    #transform .trans1 .b3 {
+        font-size: 14px;
+    }
+
+    #transform .trans1 .div21 img {
+        width: 250px;
+    }
+
+    #transform .trans1 .b2 {
+        font-size: 16px;
+    }
+
+    #transform .trans1 .b1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:540px) and (max-width:639px) {
+
+
+    #page1 .unlock .div1 .ptem {
+        font-size: 16px;
+    }
+
+    #page1 .unlock .div1 .para {
+        font-size: 14px;
+    }
+
+    #page1 .unlock .start {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #page1 .di2 img {
+        width: 300px;
+    }
+
+    #page1 .coli .valuee {
+        font-size: 20px;
+    }
+
+    #page1 .coli .valuee1 {
+        font-size: 12px;
+    }
+
+    #categories .div1 img {
+        width: 60px;
+    }
+
+    #categories .div1 {
+        gap: 5px;
+        justify-content: space-around;
+    }
+
+    #categories .div1 .divi12,
+    .divi13,
+    .divi14,
+    .divi15 {
+        padding: 20px;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 14px;
+    }
+
+    #categories .div1 .subheadd {
+        font-size: 11px;
+    }
+
+    #courses .cardco {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #courses .cardco .beginners {
+        font-size: 16px;
+    }
+
+    #courses .cardco .ronald {
+        font-size: 14px;
+    }
+
+    #courses .cardco .div1,
+    .div2,
+    .div3,
+    .div4 {
+        margin-bottom: 10px;
+    }
+
+    #courses .cardco .lap {
+        width: 200px;
+    }
+
+    #courses .cardco .ratings {
+        width: 30px;
+        height: 10px;
+    }
+
+    #courses .cardco .total {
+        font-size: 10px;
+    }
+
+    #courses .cardco .price {
+        font-size: 12px;
+    }
+
+    #courses .cardco .rat {
+        font-size: 8px;
+    }
+
+    #instructors .div21 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #instructors .div21 .dv21,
+    .dv212,
+    .dv213,
+    .dv214,
+    .dv215 {
+        margin: 10px;
+    }
+
+    #aboutus .divv1 .div1 .tech {
+        font-size: 14px;
+    }
+
+    #aboutus .divv1 .div12 img {
+        width: 10px;
+    }
+
+    #aboutus .divv1 .div13 img {
+        width: 30px;
+    }
+
+    #transform .div1 .b3 {
+        font-size: 10px;
+    }
+
+    #transform .div1 .div11 img {
+        width: 220px;
+    }
+
+    #transform .div1 .b2 {
+        font-size: 12px;
+    }
+
+    #transform .div1 .b1 {
+        font-size: 16px;
+    }
+
+    #transform .trans1 .b3 {
+        font-size: 10px;
+    }
+
+    #transform .trans1 .div21 img {
+        width: 210px;
+    }
+
+    #transform .trans1 .b2 {
+        font-size: 12px;
+    }
+
+    #transform .trans1 .b1 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:539px) {
+    #page1 .unlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #page1 .unlock .div1 .ptem {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #page1 .unlock .div1 .para {
+        font-size: 14px;
+    }
+
+    #page1 .unlock .start {
+        margin-left: 20px;
+    }
+
+    #page1 .di2 img {
+        width: 300px;
+    }
+
+    #categories .div1 {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #categories .div1 .file {
+        width: 150px;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 24px;
+    }
+
+    #courses .cardco {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #courses .cardco .total {
+        font-size: 8px;
+    }
+
+    #instructors .div21 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #instructors .div21 .ree {
+        font-size: 13px;
+    }
+
+    #aboutus .divv1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #transform .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #transform .div1 .b2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #transform .div1 .b1 {
+        font-size: 18px;
+    }
+
+    #transform .div1 .b3 {
+        font-size: 14px;
+    }
+
+    #transform .div1 .div11 img {
+        width: 400px;
+    }
+
+    #transform .trans1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #transform .trans1 .b1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #transform .trans1 .b2 {
+        font-size: 16px;
+    }
+
+    #transform .trans1 .b3 {
+        font-size: 14px;
+    }
+
+    #transform .trans1 .div21 img {
+        width: 400px;
+    }
+
+    footer .divi {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:479px) {
+    #page1 .unlock {
+        flex-wrap: wrap;
+    }
+
+    #page1 .unlock .div1 .ptem {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #page1 .unlock .div1 .para {
+        font-size: 14px;
+    }
+
+    #page1 .unlock .start {
+        margin-left: 20px;
+    }
+
+    #page1 .di2 img {
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    #page1 .coli .valuee {
+        font-size: 19px;
+    }
+
+    #page1 .coli .valuee1 {
+        font-size: 11px;
+    }
+
+    #categories .div1 {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #categories .div1 .file {
+        width: 150px;
+    }
+
+    #categories .div1 .subhead {
+        font-size: 22px;
+    }
+
+    #courses .cardco {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #instructors .div21 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #aboutus .divv1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #aboutus .abtt .abt .our {
+        font-size: 15px;
+    }
+
+    #aboutus .arrow {
+        padding: 10px;
+    }
+
+    #transform .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #transform .div1 .b2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #transform .div1 .b1 {
+        font-size: 18px;
+    }
+
+    #transform .div1 .b3 {
+        font-size: 14px;
+    }
+
+    #transform .trans1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #transform .trans1 .b1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #transform .trans1 .b2 {
+        font-size: 16px;
+    }
+
+    #transform .trans1 .b3 {
+        font-size: 14px;
+    }
+
+    #transform .div1 .div11 img {
+        width: 300px;
+    }
+
+    #transform .trans1 .div21 img {
+        width: 250px;
+    }
+
+    footer .divi {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
