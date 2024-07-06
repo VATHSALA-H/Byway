@@ -1018,6 +1018,7 @@ footer .cot img {
     }
 
     #page1 .di2 img {
+        margin-top: 20px;
         width: 300px;
     }
 
@@ -1035,6 +1036,9 @@ footer .cot img {
 
     #categories .div1 .subhead {
         font-size: 24px;
+    }
+    #page1 .coli .valuee{
+        font-size: 20px;
     }
 
     #courses .cardco {
