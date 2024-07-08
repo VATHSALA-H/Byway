@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -27,11 +27,13 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-#page1 .nav1 .nav12{
+
+#page1 .nav1 .nav12 {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
+
 #page1 .nav1 .nav12 .byeway {
     font-size: 18px;
     font-weight: 600;
@@ -40,10 +42,12 @@ a {
 #page1 .nav13 {
     margin-top: 8px;
 }
-#page1 .nav13 img{
+
+#page1 .nav13 img {
     position: relative;
-    top:7px;
+    top: 7px;
 }
+
 #page1 .nav13 a {
     font-size: 16px;
     padding: 3px;
@@ -215,6 +219,7 @@ a {
 #instructors .div1 {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 #instructors .div1 .top {
@@ -236,6 +241,7 @@ a {
     border: 1px solid #E2E8F0;
     padding: 20px;
 }
+
 #instructors .div21 .dv21 .ree,
 #instructors .div21 .dv212 .ree,
 #instructors .div21 .dv213 .ree,
@@ -270,6 +276,7 @@ a {
 #aboutus .abtt {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 #aboutus .abtt .arrow img {
@@ -464,6 +471,19 @@ footer .cot img {
         width: 150px;
     }
 
+    footer {
+        padding: 20px;
+    }
+
+    footer .divi .bold {
+        font-size: 16px;
+    }
+
+    footer .divi .empower {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
 }
 
 @media only screen and (min-width:980px) and (max-width:1079px) {
@@ -574,6 +594,19 @@ footer .cot img {
     #instructors .std .ratt {
         font-size: 12px;
     }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer .divi .bold {
+        font-size: 14px;
+    }
+
+    footer .empower {
+        line-height: 22px;
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:979px) {
@@ -637,7 +670,13 @@ footer .cot img {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
+    #instructors .div21 .dv21,
+    #instructors .div21 .dv212,
+    #instructors .div21 .dv213,
+    #instructors .div21 .dv214,
+    #instructors .div21 .dv215 {
+        margin-bottom: 10px;
+    }
     #instructors .div21 .person {
         width: 160px;
     }
@@ -672,10 +711,17 @@ footer .cot img {
 
     #transform .div12 .b3 {
         font-size: 18px;
+        padding: 7px;
     }
 
     #transform .div21 img {
         width: 300px;
+    }
+
+    #transform .div1 span img {
+        width: 18px;
+        height: 10px;
+        margin-left: 5px;
     }
 
     #transform .trans1 .b1 {
@@ -688,15 +734,18 @@ footer .cot img {
 
     #transform .trans1 .b3 {
         font-size: 18px;
+        padding: 7px;
     }
 
-    footer .divi .bold {
-        font-size: 14px;
+    #transform .trans1 span img {
+        width: 18px;
+        height: 10px;
+        margin-left: 5px;
     }
 
-    footer .empower {
-        line-height: 20px;
-        font-size: 11px;
+    footer .divi{
+         flex-wrap: wrap;
+         padding: 20px;
     }
 }
 
@@ -749,6 +798,7 @@ footer .cot img {
     #courses .cardco {
         flex-wrap: wrap;
         justify-content: space-around;
+        gap: 15px;
     }
 
     #courses .cardco .beginners {
@@ -779,6 +829,7 @@ footer .cot img {
 
     #instructors .div21 {
         justify-content: space-around;
+        gap: 15px;
     }
 
     #instructors .div21 .person {
@@ -815,10 +866,17 @@ footer .cot img {
 
     #transform .div1 .b3 {
         font-size: 14px;
+        padding: 10px;
     }
 
     #transform .div1 .div11 img {
         width: 250px;
+    }
+
+    #transform .div1 span img {
+        width: 15px;
+        height: 10px;
+        margin-left: 10px;
     }
 
     #transform .div1 .b2 {
@@ -831,10 +889,17 @@ footer .cot img {
 
     #transform .trans1 .b3 {
         font-size: 14px;
+        padding: 10px;
     }
 
     #transform .trans1 .div21 img {
         width: 250px;
+    }
+
+    #transform .trans1 .div22 span img {
+        width: 15px;
+        height: 10px;
+        margin-left: 10px;
     }
 
     #transform .trans1 .b2 {
@@ -844,6 +909,17 @@ footer .cot img {
     #transform .trans1 .b1 {
         font-size: 18px;
     }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer .divi {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
 }
 
 @media only screen and (min-width:540px) and (max-width:639px) {
@@ -891,9 +967,8 @@ footer .cot img {
     }
 
     #categories .div1 .subhead {
-        font-size: 14px;
+        font-size: 15px;
     }
-
     #categories .div1 .subheadd {
         font-size: 11px;
     }
@@ -953,19 +1028,24 @@ footer .cot img {
     }
 
     #aboutus .divv1 .div1 .tech {
-        font-size: 14px;
+        font-size: 13px;
     }
-
+    #aboutus .divv1 .div1 .jane {
+        font-size: 12px;
+    }
+    #aboutus .divv1 .div1 .des {
+        font-size:10px;
+    }
     #aboutus .divv1 .div12 img {
         width: 10px;
     }
-
     #aboutus .divv1 .div13 img {
         width: 30px;
     }
 
     #transform .div1 .b3 {
-        font-size: 10px;
+        font-size: 11px;
+        margin-left: 2px;
     }
 
     #transform .div1 .div11 img {
@@ -979,9 +1059,13 @@ footer .cot img {
     #transform .div1 .b1 {
         font-size: 16px;
     }
-
+    #transform .div1 span img {
+        width: 14px;
+        height: 7px;
+        margin-left: 5px;
+    }
     #transform .trans1 .b3 {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     #transform .trans1 .div21 img {
@@ -995,8 +1079,16 @@ footer .cot img {
     #transform .trans1 .b1 {
         font-size: 16px;
     }
+    #transform .trans1 span img {
+        width: 14px;
+        height: 7px;
+        margin-left: 5px;
+    }
+    footer .divi {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
 }
-
 @media only screen and (min-width:480px) and (max-width:539px) {
     #page1 .unlock {
         display: flex;
@@ -1037,7 +1129,8 @@ footer .cot img {
     #categories .div1 .subhead {
         font-size: 24px;
     }
-    #page1 .coli .valuee{
+
+    #page1 .coli .valuee {
         font-size: 20px;
     }
 
@@ -1051,10 +1144,24 @@ footer .cot img {
         font-size: 8px;
     }
 
+    #courses .cardco .div1,
+    .div2,
+    .div3,
+    .div4 {
+        margin-bottom: 10px;
+    }
+
     #instructors .div21 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    #instructors .div21 .dv21,
+    .dv212,
+    .dv213,
+    .dv214 {
+        margin-bottom: 10px;
     }
 
     #instructors .div21 .ree {
@@ -1085,6 +1192,12 @@ footer .cot img {
         font-size: 14px;
     }
 
+    #transform .div1 span img {
+        width: 15px;
+        height: 10px;
+        margin-left: 5px;
+    }
+
     #transform .div1 .div11 img {
         width: 400px;
     }
@@ -1106,6 +1219,12 @@ footer .cot img {
 
     #transform .trans1 .b3 {
         font-size: 14px;
+    }
+
+    #transform .trans1 span img {
+        width: 15px;
+        height: 10px;
+        margin-left: 5px;
     }
 
     #transform .trans1 .div21 img {
@@ -1171,10 +1290,24 @@ footer .cot img {
         justify-content: space-around;
     }
 
+    #courses .cardco .div1,
+    .div2,
+    .div3 {
+        margin-bottom: 10px;
+    }
+
     #instructors .div21 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    #instructors .div21 .dv21,
+    .dv212,
+    .dv213,
+    .dv214,
+    .dv215 {
+        margin-bottom: 10px;
     }
 
     #aboutus .divv1 {
@@ -1209,6 +1342,12 @@ footer .cot img {
         font-size: 14px;
     }
 
+    #transform .div1 span img {
+        width: 15px;
+        height: 10px;
+        margin-left: 5px;
+    }
+
     #transform .trans1 {
         display: flex;
         flex-wrap: wrap;
@@ -1228,12 +1367,18 @@ footer .cot img {
         font-size: 14px;
     }
 
+    #transform .trans1 span img {
+        width: 15px;
+        height: 10px;
+        margin-left: 5px;
+    }
+
     #transform .div1 .div11 img {
         width: 300px;
     }
 
     #transform .trans1 .div21 img {
-        width: 250px;
+        width: 350px;
     }
 
     footer .divi {
