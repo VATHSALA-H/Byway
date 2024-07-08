@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -470,7 +470,12 @@ footer .cot img {
     #instructors .person {
         width: 150px;
     }
-
+    #transform .div1 span img{
+        margin-left: 5px;
+    }
+    #transform .trans1 span img{
+        margin-left: 5px;
+    }
     footer {
         padding: 20px;
     }
@@ -517,6 +522,9 @@ footer .cot img {
 
     #courses .cardco {
         justify-content: space-around;
+    }
+    #courses .cardco .div1, .div2, .div3, .div4{
+        margin-right: 10px;
     }
 
     #categories .div1 .subhead {
@@ -594,8 +602,13 @@ footer .cot img {
     #instructors .std .ratt {
         font-size: 12px;
     }
-
-    footer {
+    #transform .div1 span img{
+        margin-left: 5px;
+    }
+    #transform .trans1 span img{
+        margin-left: 5px;
+    }
+        footer {
         padding: 20px;
     }
 
