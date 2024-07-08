@@ -470,12 +470,15 @@ footer .cot img {
     #instructors .person {
         width: 150px;
     }
-    #transform .div1 span img{
+
+    #transform .div1 span img {
         margin-left: 5px;
     }
-    #transform .trans1 span img{
+
+    #transform .trans1 span img {
         margin-left: 5px;
     }
+
     footer {
         padding: 20px;
     }
@@ -523,7 +526,11 @@ footer .cot img {
     #courses .cardco {
         justify-content: space-around;
     }
-    #courses .cardco .div1, .div2, .div3, .div4{
+
+    #courses .cardco .div1,
+    .div2,
+    .div3,
+    .div4 {
         margin-right: 10px;
     }
 
@@ -602,13 +609,16 @@ footer .cot img {
     #instructors .std .ratt {
         font-size: 12px;
     }
-    #transform .div1 span img{
+
+    #transform .div1 span img {
         margin-left: 5px;
     }
-    #transform .trans1 span img{
+
+    #transform .trans1 span img {
         margin-left: 5px;
     }
-        footer {
+
+    footer {
         padding: 20px;
     }
 
@@ -683,6 +693,7 @@ footer .cot img {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     #instructors .div21 .dv21,
     #instructors .div21 .dv212,
     #instructors .div21 .dv213,
@@ -690,6 +701,7 @@ footer .cot img {
     #instructors .div21 .dv215 {
         margin-bottom: 10px;
     }
+
     #instructors .div21 .person {
         width: 160px;
     }
@@ -708,6 +720,8 @@ footer .cot img {
 
     #transform .div12 .b3 {
         font-size: 18px;
+        padding: 7px;
+        margin-left: 0px;
     }
 
     #transform .div11 img {
@@ -720,11 +734,6 @@ footer .cot img {
 
     #transform .div12 .b2 {
         font-size: 18px;
-    }
-
-    #transform .div12 .b3 {
-        font-size: 18px;
-        padding: 7px;
     }
 
     #transform .div21 img {
@@ -748,6 +757,7 @@ footer .cot img {
     #transform .trans1 .b3 {
         font-size: 18px;
         padding: 7px;
+        margin-left: 0px;
     }
 
     #transform .trans1 span img {
@@ -756,9 +766,15 @@ footer .cot img {
         margin-left: 5px;
     }
 
-    footer .divi{
-         flex-wrap: wrap;
-         padding: 20px;
+    footer .divi {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    footer .divi .div11,
+    .get,
+    .pro,
+    .cot {
+        padding: 10px;
     }
 }
 
@@ -880,6 +896,7 @@ footer .cot img {
     #transform .div1 .b3 {
         font-size: 14px;
         padding: 10px;
+        margin-left: 0px;
     }
 
     #transform .div1 .div11 img {
@@ -903,6 +920,7 @@ footer .cot img {
     #transform .trans1 .b3 {
         font-size: 14px;
         padding: 10px;
+        margin-left: 0px;
     }
 
     #transform .trans1 .div21 img {
@@ -982,6 +1000,7 @@ footer .cot img {
     #categories .div1 .subhead {
         font-size: 15px;
     }
+
     #categories .div1 .subheadd {
         font-size: 11px;
     }
@@ -1043,26 +1062,30 @@ footer .cot img {
     #aboutus .divv1 .div1 .tech {
         font-size: 13px;
     }
+
     #aboutus .divv1 .div1 .jane {
         font-size: 12px;
     }
+
     #aboutus .divv1 .div1 .des {
-        font-size:10px;
+        font-size: 10px;
     }
+
     #aboutus .divv1 .div12 img {
         width: 10px;
     }
+
     #aboutus .divv1 .div13 img {
         width: 30px;
     }
 
     #transform .div1 .b3 {
         font-size: 11px;
-        margin-left: 2px;
+        margin-left: 0px;
     }
 
     #transform .div1 .div11 img {
-        width: 220px;
+        width: 210px;
     }
 
     #transform .div1 .b2 {
@@ -1072,13 +1095,16 @@ footer .cot img {
     #transform .div1 .b1 {
         font-size: 16px;
     }
+
     #transform .div1 span img {
         width: 14px;
         height: 7px;
         margin-left: 5px;
     }
+
     #transform .trans1 .b3 {
         font-size: 11px;
+        margin-left: 0px;
     }
 
     #transform .trans1 .div21 img {
@@ -1092,16 +1118,25 @@ footer .cot img {
     #transform .trans1 .b1 {
         font-size: 16px;
     }
+
     #transform .trans1 span img {
         width: 14px;
         height: 7px;
         margin-left: 5px;
     }
+
     footer .divi {
         flex-wrap: wrap;
         padding: 10px;
     }
+    footer .divi .div11,
+    .get,
+    .pro,
+    .cot {
+        padding: 10px;
+    }
 }
+
 @media only screen and (min-width:480px) and (max-width:539px) {
     #page1 .unlock {
         display: flex;
@@ -1185,11 +1220,11 @@ footer .cot img {
         display: flex;
         flex-wrap: wrap;
     }
-
+ #transform{
+    padding: 0px 10px 10px 0px;
+}
     #transform .div1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        margin-bottom: 10px;
     }
 
     #transform .div1 .b2 {
@@ -1203,6 +1238,7 @@ footer .cot img {
 
     #transform .div1 .b3 {
         font-size: 14px;
+        margin-left: 0px;
     }
 
     #transform .div1 span img {
@@ -1212,26 +1248,23 @@ footer .cot img {
     }
 
     #transform .div1 .div11 img {
-        width: 400px;
+        display: none;
     }
-
-    #transform .trans1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    #transform .trans1{
+        margin:2px 2px 2px 60px;
     }
-
     #transform .trans1 .b1 {
         font-size: 18px;
-        margin-top: 10px;
     }
 
     #transform .trans1 .b2 {
         font-size: 16px;
+        margin-bottom: 10px;
     }
 
     #transform .trans1 .b3 {
         font-size: 14px;
+        margin-left: 0px;
     }
 
     #transform .trans1 span img {
@@ -1241,13 +1274,19 @@ footer .cot img {
     }
 
     #transform .trans1 .div21 img {
-        width: 400px;
+         display: none;
     }
 
     footer .divi {
         display: flex;
         flex-wrap: wrap;
         padding-left: 20px;
+    }
+    footer .divi .div11,
+    .get,
+    .pro,
+    .cot {
+        padding: 20px;
     }
 }
 
@@ -1336,13 +1375,9 @@ footer .cot img {
     #aboutus .arrow {
         padding: 10px;
     }
-
-    #transform .div1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    #transform .div1{
+        margin: 20px;
     }
-
     #transform .div1 .b2 {
         font-size: 16px;
         margin-bottom: 10px;
@@ -1354,6 +1389,12 @@ footer .cot img {
 
     #transform .div1 .b3 {
         font-size: 14px;
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    #transform .div1 .div11 {
+        display: none;
     }
 
     #transform .div1 span img {
@@ -1361,13 +1402,9 @@ footer .cot img {
         height: 10px;
         margin-left: 5px;
     }
-
-    #transform .trans1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    #transform .trans1{
+        margin: 20px;
     }
-
     #transform .trans1 .b1 {
         font-size: 18px;
         margin-top: 10px;
@@ -1379,12 +1416,18 @@ footer .cot img {
 
     #transform .trans1 .b3 {
         font-size: 14px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    #transform .trans1 .div21 {
+        display: none;
     }
 
     #transform .trans1 span img {
         width: 15px;
         height: 10px;
-        margin-left: 5px;
+        margin-left: 0px;
     }
 
     #transform .div1 .div11 img {
@@ -1399,5 +1442,12 @@ footer .cot img {
         display: flex;
         flex-wrap: wrap;
         padding-left: 10px;
+    }
+
+    footer .divi .div11,
+    .get,
+    .pro,
+    .cot {
+        padding: 20px;
     }
 }
