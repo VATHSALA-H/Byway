@@ -857,14 +857,9 @@ footer .cot img {
     }
 
     #instructors .div21 {
-        justify-content: space-around;
-        gap: 15px;
+        flex-wrap: wrap;
+        gap:10px;
     }
-
-    #instructors .div21 .person {
-        width: 90px;
-    }
-
     #instructors .div21 .dv21,
     #instructors .div21 .dv212,
     #instructors .div21 .dv213,
@@ -878,11 +873,11 @@ footer .cot img {
     }
 
     #instructors .div21 .rate {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     #instructors .div21 .ratt {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     #aboutus .div13 .jane {
@@ -954,8 +949,6 @@ footer .cot img {
 }
 
 @media only screen and (min-width:540px) and (max-width:639px) {
-
-
     #page1 .unlock .div1 .ptem {
         font-size: 16px;
     }
@@ -978,7 +971,7 @@ footer .cot img {
     }
 
     #page1 .coli .valuee1 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     #categories .div1 img {
