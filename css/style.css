@@ -16,7 +16,7 @@ a {
 }
 
 #page1 {
-    width: 100vw;
+    width: 100%;
 }
 
 #page1 .nav1 {
@@ -117,7 +117,7 @@ a {
 }
 
 #categories {
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 
@@ -157,7 +157,7 @@ a {
 }
 
 #courses {
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 
@@ -217,7 +217,7 @@ a {
 }
 
 #instructors {
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 
@@ -274,7 +274,7 @@ a {
 }
 
 #aboutus {
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 
@@ -322,7 +322,7 @@ a {
 }
 
 #transform {
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 
@@ -409,7 +409,6 @@ footer .empower {
 footer .cot img {
     width: 190px;
 }
-
 @media only screen and (min-width:1080px) and (max-width:1279px) {
     #page1 .di2 {
         width: 1900px;
