@@ -43,7 +43,7 @@ a {
     margin-top: 8px;
 }
 
-#page1 .nav13 img {
+#page1 .nav13 .cart {
     position: relative;
     top: 7px;
 }
@@ -66,7 +66,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 30px;
+    padding: 0px 30px;
 }
 
 #page1 .unlock .div1 .ptem {
@@ -88,8 +88,13 @@ a {
     margin-left: 100px;
 }
 
-#page1 .di2 img {
-    width: 700px;
+#page1 .di2 {
+    width: 2000px;
+}
+
+#page1 .di2 .grp {
+    width: 100%;
+    display: block;
 }
 
 #page1 .coli {
@@ -404,8 +409,8 @@ footer .cot img {
 }
 
 @media only screen and (min-width:1080px) and (max-width:1279px) {
-    #page1 .di2 img {
-        width: 600px;
+    #page1 .di2 {
+        width: 1900px;
     }
 
     #categories .div1 .subhead {
@@ -503,8 +508,8 @@ footer .cot img {
         font-size: 20px;
     }
 
-    #page1 .di2 img {
-        width: 500px;
+    #page1 .di2 {
+        width: 1800px;
     }
 
     #categories .div1 {
@@ -637,8 +642,8 @@ footer .cot img {
         font-size: 20px;
     }
 
-    #page1 .di2 img {
-        width: 400px;
+    #page1 .di2 .grp2 {
+        width: 1700px;
     }
 
     #page1 .unlock .div1 .para {
@@ -647,6 +652,7 @@ footer .cot img {
 
     #page1 .unlock .start {
         font-size: 14px;
+        margin-left: 10px
     }
 
     #page1 .coli .valuee {
@@ -770,6 +776,7 @@ footer .cot img {
         flex-wrap: wrap;
         padding: 20px;
     }
+
     footer .divi .div11,
     .get,
     .pro,
@@ -788,12 +795,12 @@ footer .cot img {
     }
 
     #page1 .unlock .start {
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 10px;
     }
 
-    #page1 .di2 img {
-        width: 300px;
+    #page1 .di2 {
+        width: 1600px;
     }
 
     #page1 .unlock .start {
@@ -858,8 +865,9 @@ footer .cot img {
 
     #instructors .div21 {
         flex-wrap: wrap;
-        gap:10px;
+        gap: 10px;
     }
+
     #instructors .div21 .dv21,
     #instructors .div21 .dv212,
     #instructors .div21 .dv213,
@@ -958,12 +966,12 @@ footer .cot img {
     }
 
     #page1 .unlock .start {
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 10px;
     }
 
-    #page1 .di2 img {
-        width: 300px;
+    #page1 .di2 {
+        width: 1500px;
     }
 
     #page1 .coli .valuee {
@@ -1122,6 +1130,7 @@ footer .cot img {
         flex-wrap: wrap;
         padding: 10px;
     }
+
     footer .divi .div11,
     .get,
     .pro,
@@ -1150,9 +1159,18 @@ footer .cot img {
         margin-left: 20px;
     }
 
-    #page1 .di2 img {
+    #page1 .di2 {
         margin-top: 20px;
-        width: 300px;
+        width: 1500px;
+    }
+
+    #page1 .coli {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #page1 .coli .hre {
+        display: none;
     }
 
     #categories .div1 {
@@ -1213,9 +1231,11 @@ footer .cot img {
         display: flex;
         flex-wrap: wrap;
     }
- #transform{
-    padding: 0px 10px 10px 0px;
-}
+
+    #transform {
+        padding: 0px 10px 10px 0px;
+    }
+
     #transform .div1 {
         margin-bottom: 10px;
     }
@@ -1243,9 +1263,11 @@ footer .cot img {
     #transform .div1 .div11 img {
         display: none;
     }
-    #transform .trans1{
-        margin:2px 2px 2px 60px;
+
+    #transform .trans1 {
+        margin: 2px 2px 2px 60px;
     }
+
     #transform .trans1 .b1 {
         font-size: 18px;
     }
@@ -1267,7 +1289,7 @@ footer .cot img {
     }
 
     #transform .trans1 .div21 img {
-         display: none;
+        display: none;
     }
 
     footer .divi {
@@ -1275,6 +1297,7 @@ footer .cot img {
         flex-wrap: wrap;
         padding-left: 20px;
     }
+
     footer .divi .div11,
     .get,
     .pro,
@@ -1301,13 +1324,22 @@ footer .cot img {
         margin-left: 20px;
     }
 
-    #page1 .di2 img {
+    #page1 .di2 {
         margin-top: 20px;
-        width: 300px;
+        width: 1400px;
+    }
+
+    #page1 .coli {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #page1 .coli .hre {
+        display: none;
     }
 
     #page1 .coli .valuee {
-        font-size: 19px;
+        font-size: 22px;
     }
 
     #page1 .coli .valuee1 {
@@ -1368,9 +1400,11 @@ footer .cot img {
     #aboutus .arrow {
         padding: 10px;
     }
-    #transform .div1{
+
+    #transform .div1 {
         margin: 20px;
     }
+
     #transform .div1 .b2 {
         font-size: 16px;
         margin-bottom: 10px;
@@ -1395,9 +1429,11 @@ footer .cot img {
         height: 10px;
         margin-left: 5px;
     }
-    #transform .trans1{
+
+    #transform .trans1 {
         margin: 20px;
     }
+
     #transform .trans1 .b1 {
         font-size: 18px;
         margin-top: 10px;
